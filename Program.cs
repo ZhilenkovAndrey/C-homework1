@@ -40,14 +40,31 @@
 
 //task6//
 
-bool a;
+// bool a;
 
-Console.Write("Enter a num: ");
+// Console.Write("Enter a num: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if (num % 2 == 0) 
+//     a = true;
+// else 
+//     a = false;
+
+// Console.WriteLine(a);
+
+
+//task8//
+
+int a = 2;
+
+Console.Write("Enter a num N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-if (num % 2 == 0) 
-    a = true;
-else 
-    a = false;
-
-Console.WriteLine(a);
+if (num > 1) 
+{
+while(a <= num) 
+    {
+        Console.Write(a + ", ");
+        a = a + 2;
+    }
+}
